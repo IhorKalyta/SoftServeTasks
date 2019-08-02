@@ -3,66 +3,66 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>FC Carpaty Lviv</title>
+	<link rel="stylesheet" href="./bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<nav class="container black topBotomBordersOut">
-	  <ul>
-		  <li><a class="active" href="/SoftServe/Football/index.html">HOME</a></li>
-		  <li class="dropdown">
+	<nav class="containera black topBotomBordersOut">	
+	<input class="menu-btn" type="checkbox" id="menu-btn" />
+	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+	  <ul class="menu">
+		  <li><a href="./index.html">HOME</a></li>
+		  <li class="dropdowna">
 			<a class="dropbtn">MATCHES</a>
 			<div class="dropdown-content">
-			  <a href="#">Calendar of matches</a>
+			  <a href="./calendarOfMatches.html">Calendar of matches</a>
 			  <a href="#">Next game</a>
 			  <a href="#">Raitings</a>
 			</div>
 		  </li>
-		  <li><a>NEWS</a></li>
-		  <li><a>FANS</a></li>
-		  <li><a>CONTACTS</a></li>
-		  <li><a>ADMIN</a></li>
-		  <li class="logo"><img class="img" src="/SoftServe/Football/images/1312115451carp.jpg"></li>
+		  <li><a class="active" href="./news.html">NEWS</a></li>
+		  <li><a href="./fans.html">FANS</a></li>
+		  <li><a href="./contacts.html">CONTACTS</a></li>
+		  <li><a href="./admin.html">ADMIN</a></li>
+		  <li class="logo"><img class="img" src="./images/1312115451carp.jpg"></li>
 	  </ul>	  
 	</nav>
 	
-	
-	
-	<h1 class="animated">The last news</h1>
-	
-	<div class="clearfix">
-				
-		<article class="card">
-		  <div class='zoom'><img src="/SoftServe/Football/images/1.jpg" alt="Avatar" style="width:100%"/></div>		  
-		  <div class="container">
-			<h4><b>Herman Penkov left "Karpaty"</b></h4> 
-			<p>25 years old goalkeeper leaves "green-white"</p> 
-		  </div>
-		</article>
-		
-		<article class="card">
-		  <div class='zoom'><img src="/SoftServe/Football/images/2.jpg" alt="Avatar" style="width:100%"></div>
-		  <div class="container">
-			<h4><b>"Karpaty" equipment</b></h4> 
-			<p>Win our T-shirt</p> 
-		  </div>
-		</article>
-		
-		<article class="card">
-		  <div class='zoom'><img src="/SoftServe/Football/images/3.jpg" alt="Avatar" style="width:100%"></div>
-		  <div class="container">
-			<h4><b>"Karpaty" U-19 goes to Romania</b></h4> 
-			<p>The "Karpaty" youths and students have the opportunity to defend the honor of the club at the Brasov Cup tournament.</p> 
-		  </div>
-		</article>
-	  
-	  
-	  
-	  
-	</div>
-	
-	<footer>
-	  <p>© FC Carpaty. All rights reserved.</p>
+	<main>
+		<h1 class="animated">The last news</h1>	
+		<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-3 card">
+			<div class='zoom'><img src="./images/1.jpg" alt="Avatar" style="width:100%"/></div>
+			<h3>Herman Penkov left "Karpaty"</h3>
+			<p>25 years old goalkeeper leaves "green-white"</p>
+			
+			</div>
+			<div class="col-md-3 card">
+			<div class='zoom'><img src="./images/2.jpg" alt="Avatar" style="width:100%"></div>
+			<h3>"Karpaty" equipment</h3>
+			<p>Win our T-shirt</p>
+			
+			</div>
+			<div class="col-md-3 card">
+				<div class='zoom'><img src="./images/3.jpg" alt="Avatar" style="width:100%"></div>
+				<h3>Karpaty" U-19 goes to Romania</h3>        
+				<p>The "Karpaty" youths and students have the opportunity to defend the honor of the club at the Brasov Cup tournament.</p>
+			</div>
+			<div class="col-md-3 card">
+				<div class='zoom'><img src="./images/4.jpg" alt="Avatar" style="width:100%"></div>
+				<h3>Karpaty" U-19 VS Dynamo U-21</h3>        
+				<p>The "Karpaty" youths and students have the opportunity to defend the honor of the club at the Brasov Cup tournament.</p>
+			</div>
+		</div>
+		</div>	
+	</main>	
+
+	<footer class="footer">
+	  <div class="footer-copyright text-center py-3">© FC Carpaty. All rights reserved.
+		<a href="/"> KarpatyLviv.com</a>
+	  </div>
 	</footer>
+	
 </body>
 </html>
