@@ -7,4 +7,3 @@ function f178b(n){
 	}
 	return count;
 } 
-console.log(f178b(15));

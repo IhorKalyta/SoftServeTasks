@@ -5,4 +5,3 @@ function f178v(n){
     }
     return count;
 }
-console.log(f178v(170));

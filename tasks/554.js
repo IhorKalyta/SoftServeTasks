@@ -9,5 +9,4 @@ function pifagor(n){
       }
     }
     return result;
-}	
-console.log(pifagor(10));
+}
